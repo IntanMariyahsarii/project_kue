@@ -40,7 +40,7 @@
 
                         <!-- Admin Menu -->
                         <li class="has-dropdown">
-                            <a href="../admin/home.php" class="dropdown-toggle menu-item">Admin</a>
+                            <a href="../admin-new/produk.php" class="dropdown-toggle menu-item">Admin</a>
                         </li>
                         <!-- li end -->
 

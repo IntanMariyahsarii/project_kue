@@ -159,12 +159,7 @@ $query = mysqli_query($conn, "SELECT * FROM produk ORDER BY id_produk DESC");
                                             <div class="entry--bio">
                                                 <?= $data_produk["deskripsi"] ?>
                                             </div>
-                                            <div class="entry--footer">
-                                                <div class="entry--date">
-                                                    23, Mei 2023
-                                                </div>
-
-                                            </div>
+                                            
                                         </div>
                                         <!-- .entry-content end -->
                                     </div>
