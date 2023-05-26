@@ -34,7 +34,7 @@ $query_kategori = mysqli_query($conn, "SELECT * FROM kategori");
                                             <input type="text" name="id_produk" class="form-control" value="<?php echo $data_produk['id_produk'] ?>" hidden />
                                             <div class="col-md-6">
                                                 <label for="validationCustom01" class="form-label">Nama Produk</label>
-                                                <input autocomplete="off" type="text" class="form-control" id="validationCustom01" name="nama_produk" id="nama_produk" value=<?php echo $data_produk['nama_produk']; ?>>
+                                                <input autocomplete="off" type="text" class="form-control" id="validationCustom01" name="nama_produk" id="nama_produk" value="<?php echo $data_produk['nama_produk']; ?>">
                                                 <div id="message_produk" class="warning-text"></div>
                                             </div>
                                             <div class="col-md-6">
@@ -45,12 +45,12 @@ $query_kategori = mysqli_query($conn, "SELECT * FROM kategori");
                                             </div>
                                             <div class="col-md-6">
                                                 <label for="validationCustom03" class="form-label">Harga</label>
-                                                <input type="text" class="form-control" name="harga" id="harga" value="<?php echo $data_produk['harga'] ?>">
+                                                <input type="number" class="form-control" name="harga" id="harga" value="<?php echo $data_produk['harga'] ?>">
                                                 <div id="message_harga" class="warning-text"></div>
                                             </div>
                                             <div class="col-md-6">
                                                 <label for="validationCustom03" class="form-label">Stok</label>
-                                                <input type="text" class="form-control" name="stok" id="stok" value="<?php echo $data_produk['stok'] ?>">
+                                                <input type="number" class="form-control" name="stok" id="stok" value="<?php echo $data_produk['stok'] ?>">
                                                 <div id="message_stok" class="warning-text"></div>
                                             </div>
                                             <div class="col-md-6">

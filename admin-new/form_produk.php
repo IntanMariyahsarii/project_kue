@@ -21,7 +21,7 @@ $query_kategori = mysqli_query($conn, "SELECT * FROM kategori");
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Form Add Produk</h5>
-                                <form action="proses_add.php" method="post" class="row g-3 needs-validation" id="myForm" novalidate>
+                                <form action="proses_add.php" method="post" class="row g-3 needs-validation" id="myForm" novalidate enctype='multipart/form-data'>
                                     <div class="col-md-6">
                                         <label for="validationCustom01" class="form-label">Nama Produk</label>
                                         <input autocomplete="off" type="text" class="form-control" id="validationCustom01" name="nama_produk" id="nama_produk">
@@ -34,12 +34,12 @@ $query_kategori = mysqli_query($conn, "SELECT * FROM kategori");
                                     </div>
                                     <div class="col-md-6">
                                         <label for="validationCustom03" class="form-label">Harga</label>
-                                        <input type="text" class="form-control" name="harga" id="harga">
+                                        <input type="number" class="form-control" name="harga" id="harga">
                                         <div id="message_harga" class="warning-text"></div>
                                     </div>
                                     <div class="col-md-6">
                                         <label for="validationCustom03" class="form-label">Stok</label>
-                                        <input type="text" class="form-control" name="stok" id="stok">
+                                        <input type="number" class="form-control" name="stok" id="stok">
                                         <div id="message_stok" class="warning-text"></div>
                                     </div>
                                     <div class="col-md-6">

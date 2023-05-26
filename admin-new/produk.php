@@ -3,7 +3,7 @@ include_once("./layouts-admin/head.php");
 include "../config.php";
 $query = mysqli_query($conn, "SELECT * FROM produk 
 JOIN promotion ON produk.id_promo=promotion.id_promo
-JOIN kategori ON produk.id_kategori=kategori.id_kategori");
+JOIN kategori ON produk.id_kategori=kategori.id_kategori ORDER BY produk.id_produk DESC");
 ?>
 
 <body>
