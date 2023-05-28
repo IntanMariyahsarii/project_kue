@@ -26,7 +26,7 @@ $query = mysqli_query($conn, "SELECT * FROM produk ORDER BY id_produk DESC");
 ============================================= -->
         <section id="page-title" class="page-title bg-overlay bg-parallax bg-overlay-gradient">
             <div class="bg-section">
-                <img src="assets/images/page-title/7.jpg" alt="Background" />
+                <img src="assets/images/content/ban1.jpg" alt="Background" />
             </div>
             <div class="container">
                 <div class="row">
